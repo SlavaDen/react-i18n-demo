@@ -6,3 +6,5 @@ preserve_hierarchy:
 files:
   - source: public/locales/en/translation.json
     translation: /public/locales/%two_letters_code%/translation.json
+git:
+  branch: new_branch_name
