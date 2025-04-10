@@ -1,39 +1,8 @@
-#
-# Basic Crowdin CLI configuration
-# See https://crowdin.github.io/crowdin-cli/configuration for more information
-# See https://support.crowdin.com/developer/configuration-file/ for all available options
-#
-
-#
-# Your Crowdin credentials
-#
-"project_id": "779962"
-"api_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJ3UUVxdmhVM3ZMT2EyWGljbVV5VCIsImp0aSI6ImUyOWQ0ODU1OTQxNjFlNThjNDg1M2I4MmRjNjMyZDYwYTIwYWU4MmUwNTg0ZjUzZjk5NGE5YTlmYjUyM2U5NjMyNDcyZDUyNWI1N2M3NjE1IiwiaWF0IjoxNzQ0MjcyNTEzLjUzOTgyOCwibmJmIjoxNzQ0MjcyNTEzLjUzOTgzMSwiZXhwIjoxNzc1ODA4NTEzLjQ0NDE3OCwic3ViIjoiMTcwMjQwOTIiLCJzY29wZXMiOlsicHJvamVjdCJdLCJkb21haW4iOm51bGwsImFzc29jaWF0aW9ucyI6WyIqIl0sImxvZ2luX21ldGhvZCI6bnVsbCwic2Vzc2lvbiI6MH0.Cbfbk8jU3IkU52rwdg1P5lRWOhK8TW5HXhOTjH8EuPQtFbYRc83w_yz_rO1RLjieT8gtDwLPVAxAIBY2Vs4KEDXaJ7_3hEBBwSoevIR0X-cBlmyrYML5gB9fwwp-VuuFwqiESoamgIqZ9cDjemRbtSp0QtSzNXTi1Fb8sLeNS7vQtRsGIyQZB2N-DGbYbgYaqnDbgPnSVo7lo3LI13FnG5l4O-QTClydJLkTYgwRx_cQYU_Qny_mzRanTnSrZwO3m4MWdenXdqel37Oy4Br9CkoroUj88TBoVdSVSqQT_CmAHDHJW5UhGGkhwL7UqrtKG88maYMhTQnpczDZVx5Vna7RAlD9KhyDe-5HWorwaRI0w8BkvxJPR7O0rTcRiITDnf6KWzX5y3FIoBT5vKB2zwqBo0Frxuus_bcFfMK1iZn_oNsDB3aT_50kFcZHY4iZ9Bi_kdXOi1x_Hs8TVIgmWVcw01Wnvn8XjCynQvqwt54MgCXAhAt2eR2p9uCJoccShDOEY9BsQ2lRSg1e-GD66MxlXpXFp9LaOT9M0lVQxMEixal4KlzRHKbN860D6S1UTP_XWoaHwGzE3SYOi7dGxji5OZtZnGAHASlKN2jTAvJDPK90pUMYNUg7ZzqZLEOAMgvNafqxPnP6Ij_c5kGb450g94kZvfLOiDcWvIZ3PYI"
-"base_path": "."
-"base_url": "https://api.crowdin.com"
-
-#
-# Defines whether to preserve the original directory structure in the Crowdin project
-# Recommended to set to true
-#
-"preserve_hierarchy": false
-
-#
-# Files configuration.
-# See https://support.crowdin.com/developer/configuration-file/ for all available options
-#
-files: [
-  {
-    #
-    # Source files filter
-    # e.g. "/resources/en/*.json"
-    #
-    "source": "public/locales/en/translation.json",
-
-    #
-    # Translation files filter
-    # e.g. "/resources/%two_letters_code%/%original_file_name%"
-    #
-    "translation": "public/locales/%two_letters_code%/translation.json",
-  }
-]
+project_id: '779962'
+api_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJ3UUVxdmhVM3ZMT2EyWGljbVV5VCIsImp0aSI6ImUyOWQ0ODU1OTQxNjFlNThjNDg1M2I4MmRjNjMyZDYwYTIwYWU4MmUwNTg0ZjUzZjk5NGE5YTlmYjUyM2U5NjMyNDcyZDUyNWI1N2M3NjE1IiwiaWF0IjoxNzQ0MjcyNTEzLjUzOTgyOCwibmJmIjoxNzQ0MjcyNTEzLjUzOTgzMSwiZXhwIjoxNzc1ODA4NTEzLjQ0NDE3OCwic3ViIjoiMTcwMjQwOTIiLCJzY29wZXMiOlsicHJvamVjdCJdLCJkb21haW4iOm51bGwsImFzc29jaWF0aW9ucyI6WyIqIl0sImxvZ2luX21ldGhvZCI6bnVsbCwic2Vzc2lvbiI6MH0.Cbfbk8jU3IkU52rwdg1P5lRWOhK8TW5HXhOTjH8EuPQtFbYRc83w_yz_rO1RLjieT8gtDwLPVAxAIBY2Vs4KEDXaJ7_3hEBBwSoevIR0X-cBlmyrYML5gB9fwwp-VuuFwqiESoamgIqZ9cDjemRbtSp0QtSzNXTi1Fb8sLeNS7vQtRsGIyQZB2N-DGbYbgYaqnDbgPnSVo7lo3LI13FnG5l4O-QTClydJLkTYgwRx_cQYU_Qny_mzRanTnSrZwO3m4MWdenXdqel37Oy4Br9CkoroUj88TBoVdSVSqQT_CmAHDHJW5UhGGkhwL7UqrtKG88maYMhTQnpczDZVx5Vna7RAlD9KhyDe-5HWorwaRI0w8BkvxJPR7O0rTcRiITDnf6KWzX5y3FIoBT5vKB2zwqBo0Frxuus_bcFfMK1iZn_oNsDB3aT_50kFcZHY4iZ9Bi_kdXOi1x_Hs8TVIgmWVcw01Wnvn8XjCynQvqwt54MgCXAhAt2eR2p9uCJoccShDOEY9BsQ2lRSg1e-GD66MxlXpXFp9LaOT9M0lVQxMEixal4KlzRHKbN860D6S1UTP_XWoaHwGzE3SYOi7dGxji5OZtZnGAHASlKN2jTAvJDPK90pUMYNUg7ZzqZLEOAMgvNafqxPnP6Ij_c5kGb450g94kZvfLOiDcWvIZ3PYI
+base_path: .
+base_url: 'https://api.crowdin.com'
+preserve_hierarchy: 
+files:
+  - source: public/locales/en/translation.json
+    translation: /public/locales/%two_letters_code%/translation.json
