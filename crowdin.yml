@@ -28,7 +28,7 @@ files: [
     # Source files filter
     # e.g. "/resources/en/*.json"
     #
-    "source": "public/locales/{{LANG}}/translation.json",
+    "source": "public/locales/en/translation.json",
 
     #
     # Translation files filter
