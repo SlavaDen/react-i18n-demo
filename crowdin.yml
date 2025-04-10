@@ -16,7 +16,7 @@
 # Defines whether to preserve the original directory structure in the Crowdin project
 # Recommended to set to true
 #
-"preserve_hierarchy": false
+"preserve_hierarchy": true
 
 #
 # Files configuration.
@@ -34,6 +34,6 @@ files: [
     # Translation files filter
     # e.g. "/resources/%two_letters_code%/%original_file_name%"
     #
-    "translation": "public/locales/%two_letters_code%/translation.json",
+    "translation": "/public/locales/%two_letters_code%/translation.json",
   }
 ]
