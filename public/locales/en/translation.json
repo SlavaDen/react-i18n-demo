@@ -1,4 +1,7 @@
 {
   "welcome": "welcome",
-  "hi": "hi"
+  "hi": "hi",
+  "fu": {
+    "bus": "test"
+  }
 }
