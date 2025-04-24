@@ -1,8 +1,9 @@
 {
-  "welcome": "welcome",
-  "hi": "hi",
-  "fu": {
-    "bus": "test",
-    "bye": "bye"
-  }
+    "welcome_header": "Hello world!",
+    "welcome": "welcome",
+    "hi": "hi",
+    "fu": {
+        "bus": "test",
+        "bye": "bye"
+    }
 }
