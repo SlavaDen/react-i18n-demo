@@ -1,0 +1,12 @@
+phrase:
+  access_token: <your-api-token>
+  project_id: <your-project-id>
+  file_format: json
+  push:
+    sources:
+      - file: .public/locales/en/translation.json
+        locale_id: en
+  pull:
+    targets:
+      - file: .public/locales/<locale>/translation.json
+        locale_id: <locale>
