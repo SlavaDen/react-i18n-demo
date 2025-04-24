@@ -2,6 +2,7 @@
   "welcome": "welcome",
   "hi": "hi",
   "fu": {
-    "bus": "test"
+    "bus": "test",
+    "bye": "bye"
   }
 }
